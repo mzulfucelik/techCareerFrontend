@@ -1,0 +1,130 @@
+/* Temel stil ayarları */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Arka plan rengini ayarla */
+}
+
+/* Uygulama konteyneri */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Todo List başlığı */
+.todo-header {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  width: 100%;
+}
+
+/* Todo Input ve Button konteyneri */
+.todo-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input-group {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+/* Filter ve Control Buttonları */
+.filter-buttons, .control-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.btn {
+  flex-grow: 1; /* Butonları eşit genişlikte yap */
+  margin: 0 5px;
+}
+
+/* Özel renk stilleri */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+/* Liste stilleri */
+.todo-list {
+  width: 100%;
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+/* Buton Stilleri */
+.button, .btn {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/* Todo Öğe Stilleri */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+/* Özel Buton Renkleri */
+.btn-custom {
+  color: white;
+  background-color: #007BFF;  /* Mavi */
+}
+
+.btn-danger-custom {
+  background-color: #dc3545; /* Kırmızı */
+}
+
+.btn-success-custom {
+  background-color: #28a745; /* Yeşil */
+}
+
+/* Genel Buton Stilleri */
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.control-buttons, .filter-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Konteyner Stilleri */
+.todo-container {
+  width: 90%;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
